@@ -33,8 +33,8 @@ X_train, X_test, y_train, y_test = train_test_split(feature, target, test_size=0
 ''' 코드 작성 바랍니다 '''
 param_grid = {
     "criterion": ["gini", "entropy"],
-    "max_depth": [2, 5],
-    "min_samples_split": [2, 10],
+    "max_depth": [2,3,4, 5],
+    "min_samples_split": [2,5, 10],
     "min_samples_leaf": [1, 2, 4]
 }
 
